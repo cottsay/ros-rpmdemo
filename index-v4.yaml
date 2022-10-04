@@ -1,0 +1,13 @@
+%YAML 1.1
+# ROS index file
+# see REP 153: http://ros.org/reps/rep-0153.html
+---
+distributions:
+  rpmdemo:
+    distribution: [rpmdemo/distribution.yaml]
+    distribution_cache: rpmdemo/rpmdemo-cache.yaml.gz
+    distribution_status: active
+    distribution_type: ros2
+    python_version: 3
+type: index
+version: 4
