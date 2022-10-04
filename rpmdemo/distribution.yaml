@@ -7,6 +7,25 @@ release_platforms:
   - '8'
   ubuntu:
   - jammy
-repositories: {}
+repositories:
+  ros-rpmdemo:
+    release:
+      packages:
+      - baz_msgs
+      - idl_core_generators
+      - idl_core_runtime
+      - idl_generator_bar
+      - idl_generator_foo
+      - idl_generator_packages_union
+      - idl_runtime_bar
+      - idl_runtime_foo
+      - idl_runtime_packages_union
+      - msg_packages_union
+      - qux_msgs
+      tags:
+        release: release/rpmdemo/{package}/{version}
+      url: https://github.com/cottsay/ros-rpmdemo.git
+      version: 1.0.0-1
+    status: developed
 type: distribution
 version: 2
