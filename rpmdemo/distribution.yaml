@@ -22,10 +22,11 @@ repositories:
       - idl_runtime_packages_union
       - msg_packages_union
       - qux_msgs
+      - ros_workspace
       tags:
         release: release/rpmdemo/{package}/{version}
       url: https://github.com/cottsay/ros-rpmdemo.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     status: developed
 type: distribution
 version: 2
