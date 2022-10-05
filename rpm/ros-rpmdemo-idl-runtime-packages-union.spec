@@ -22,6 +22,7 @@ BuildRequires:  ros-rpmdemo-ros-workspace
 Provides:       %{name}-devel = %{version}-%{release}
 Provides:       %{name}-doc = %{version}-%{release}
 Provides:       %{name}-runtime = %{version}-%{release}
+Provides:       ros-rpmdemo-idl-runtime-packages(all)
 
 %description
 ROS RPM demo package
