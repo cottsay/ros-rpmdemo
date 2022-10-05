@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>idl_generator_foo</name>
+  <version>1.0.0</version>
+  <description>ROS RPM demo package</description>
+  <maintainer email="logans@cottsay.net">Scott K Logan</maintainer>
+  <license>Apache License 2.0</license>
+  <url type="website">https://github.com/cottsay/ros-rpmdemo</url>
+  <author email="logans@cottsay.net">Scott K Logan</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <member_of_group>idl_generator_packages</member_of_group>
+
+  <export>
+    <architecture_independent/>
+    <build_type>cmake</build_type>
+  </export>
+</package>
