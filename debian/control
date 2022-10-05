@@ -1,0 +1,12 @@
+Source: ros-rpmdemo-ros-workspace
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: https://github.com/cottsay/ros-rpmdemo
+Standards-Version: 3.9.2
+
+Package: ros-rpmdemo-ros-workspace
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: ROS RPM demo package
