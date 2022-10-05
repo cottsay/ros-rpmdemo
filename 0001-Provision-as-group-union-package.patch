@@ -1,4 +1,4 @@
-From 410c587707ee64979f1d9efa9a8fb3669803c795 Mon Sep 17 00:00:00 2001
+From 98fc95d6bc4353e7de13b888e13eeb1b96069de4 Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 4 Oct 2022 17:15:20 -0700
 Subject: [PATCH] Provision as group union package
@@ -8,7 +8,7 @@ Subject: [PATCH] Provision as group union package
  1 file changed, 1 insertion(+)
 
 diff --git a/rpm/ros-rpmdemo-msg-packages-union.spec b/rpm/ros-rpmdemo-msg-packages-union.spec
-index 4a5d30a..d79748b 100644
+index 1367bd4..76a3dea 100644
 --- a/rpm/ros-rpmdemo-msg-packages-union.spec
 +++ b/rpm/ros-rpmdemo-msg-packages-union.spec
 @@ -22,6 +22,7 @@ BuildRequires:  ros-rpmdemo-ros-workspace
