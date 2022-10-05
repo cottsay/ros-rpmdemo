@@ -1,0 +1,24 @@
+From 94d406d224ef90b75c4d859752383a58539ce471 Mon Sep 17 00:00:00 2001
+From: Scott K Logan <logans@cottsay.net>
+Date: Tue, 4 Oct 2022 17:48:35 -0700
+Subject: [PATCH] Specify group dependency semantics
+
+---
+ rpm/ros-rpmdemo-idl-core-runtime.spec | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rpm/ros-rpmdemo-idl-core-runtime.spec b/rpm/ros-rpmdemo-idl-core-runtime.spec
+index 86ce244..7bc3df2 100644
+--- a/rpm/ros-rpmdemo-idl-core-runtime.spec
++++ b/rpm/ros-rpmdemo-idl-core-runtime.spec
+@@ -17,6 +17,7 @@ Source0:        %{name}-%{version}.tar.gz
+ BuildArch:      noarch
+ 
+ Requires:       ros-rpmdemo-idl-runtime-foo
++Requires:       ros-rpmdemo-idl-runtime-packages(all)
+ Requires:       ros-rpmdemo-ros-workspace
+ BuildRequires:  cmake3
+ BuildRequires:  ros-rpmdemo-ros-workspace
+-- 
+2.37.3
+
