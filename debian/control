@@ -1,0 +1,12 @@
+Source: ros-rpmdemo-idl-core-generators
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-rpmdemo-ros-workspace
+Homepage: https://github.com/cottsay/ros-rpmdemo
+Standards-Version: 3.9.2
+
+Package: ros-rpmdemo-idl-core-generators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rpmdemo-idl-generator-foo, ros-rpmdemo-ros-workspace
+Description: ROS RPM demo package
