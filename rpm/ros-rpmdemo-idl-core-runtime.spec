@@ -17,6 +17,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 
 Requires:       ros-rpmdemo-idl-runtime-foo
+Requires:       ros-rpmdemo-idl-runtime-packages(all)
 Requires:       ros-rpmdemo-ros-workspace
 BuildRequires:  cmake3
 BuildRequires:  ros-rpmdemo-ros-workspace
