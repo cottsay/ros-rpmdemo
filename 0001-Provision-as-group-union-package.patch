@@ -1,4 +1,4 @@
-From e2beb028104c5a70ecedbc1f0e499b25b32c626f Mon Sep 17 00:00:00 2001
+From 30203c19dfe8c5dc3be857ba17d2016d83d87737 Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 4 Oct 2022 17:16:27 -0700
 Subject: [PATCH] Provision as group union package
@@ -8,7 +8,7 @@ Subject: [PATCH] Provision as group union package
  1 file changed, 1 insertion(+)
 
 diff --git a/rpm/ros-rpmdemo-idl-generator-packages-union.spec b/rpm/ros-rpmdemo-idl-generator-packages-union.spec
-index af23940..6271949 100644
+index 1817610..1765e1f 100644
 --- a/rpm/ros-rpmdemo-idl-generator-packages-union.spec
 +++ b/rpm/ros-rpmdemo-idl-generator-packages-union.spec
 @@ -22,6 +22,7 @@ BuildRequires:  ros-rpmdemo-ros-workspace
