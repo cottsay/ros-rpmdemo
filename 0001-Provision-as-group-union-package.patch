@@ -1,0 +1,24 @@
+From 9c696f807c2554c43d5fa366462c8b763c8ef949 Mon Sep 17 00:00:00 2001
+From: Scott K Logan <logans@cottsay.net>
+Date: Tue, 4 Oct 2022 17:17:06 -0700
+Subject: [PATCH] Provision as group union package
+
+---
+ rpm/ros-rpmdemo-idl-runtime-packages-union.spec | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rpm/ros-rpmdemo-idl-runtime-packages-union.spec b/rpm/ros-rpmdemo-idl-runtime-packages-union.spec
+index 4d9b1fb..1dc85b5 100644
+--- a/rpm/ros-rpmdemo-idl-runtime-packages-union.spec
++++ b/rpm/ros-rpmdemo-idl-runtime-packages-union.spec
+@@ -22,6 +22,7 @@ BuildRequires:  ros-rpmdemo-ros-workspace
+ Provides:       %{name}-devel = %{version}-%{release}
+ Provides:       %{name}-doc = %{version}-%{release}
+ Provides:       %{name}-runtime = %{version}-%{release}
++Provides:       ros-rpmdemo-idl-runtime-packages(all)
+ 
+ %description
+ ROS RPM demo package
+-- 
+2.37.3
+
